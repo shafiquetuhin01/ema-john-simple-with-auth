@@ -5,4 +5,49 @@
     box-sizing: border-box;
     background-color: rgb(241, 236, 230);
     border-radius: 7px;
+    box-shadow: 0 10px 20px -5px rgba(115,115,115,0.75),
+                -10px 0 20px -5px rgba(115,115,115,0.75);
+}
+.login-form{
+    padding: 8px;
+    width: 80%;
+    margin: 0 auto;
+}
+.login-form input{
+    width: 100%;
+    padding: 5px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    border: 1px solid rgb(173, 169, 169);
+    margin-bottom: 5px;
+}
+.login-click{
+    background-color: rgb(247, 187, 97);
+    text-align: center;
+    padding: 8px;
+    margin-top: 8px;
+    font-size: 1.2rem;
+}
+.create-account-link{
+    color: rgb(247, 187, 97);
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.lower-part{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lower-part hr{
+    width: 44%;
+}
+.google-btn{
+    border: 1px solid rgb(173, 169, 169);
+    padding: 10px;
+    font-size: 1.1rem;
+}
+.google-btn img{
+    width: 27px;
+    height: 27px;
 }
